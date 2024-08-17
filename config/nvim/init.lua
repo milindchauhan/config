@@ -939,3 +939,17 @@ require("lazy").setup({
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+
+------------------- my additions ---------------------------------
+
+-- personal keymaps
+vim.keymap.set("n", "<C-d>", "<C-d>zz") -- center screen after scroll half page down
+vim.keymap.set("n", "<C-u>", "<C-u>zz") -- center screen after scroll half page up
+
+-- personal settings
+
+-- dunno?
+vim.o.shiftwidth = 4
+
+-- mark the 120th column from the start of the line.
+vim.opt.colorcolumn = "120"
